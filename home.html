@@ -1,0 +1,83 @@
+<!--
+---- EPITECH PROJECT, 2024
+---- My_Rpg
+---- File description:
+---- My_rpg
+--->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Last Hero</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css'>
+    <link rel="stylesheet" href="./search.css">
+    <style>
+        .presentation {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .mosaic {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 10px;
+            margin: 20px 0;
+        }
+
+        .mosaic img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .mosaic {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="home.html"> The Last Hero</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Characters</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html">Log out</a></li>
+            </ul>
+        </nav>
+        <form class="search">
+            <input type="text" placeholder="Search" class="search__input" />
+            <button type="button" class="search__button">
+                <i class="ri-search-2-line"></i>
+            </button>
+        </form>
+    </header>
+
+    <section id="home">
+        <div class="presentation">
+            <h2>Bienvenue sur "The Last Hero"!</h2>
+            <p>
+                Plongez dans l'univers épique de "The Last Hero", un jeu de rôle palpitant où chaque décision compte. 
+                Incarnez un héros légendaire, explorez des terres inconnues, et combattez des ennemis redoutables pour sauver le royaume. 
+                Êtes-vous prêt à devenir le dernier héros ?
+            </p>
+        </div>
+        <div class="mosaic">
+            <img src="url.png" alt="Image 1">
+            <img src="url.png" alt="Image 2">
+            <img src="url.png" alt="Image 3">
+            <img src="url.png" alt="Image 4">
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 The Last Hero. All rights reserved.</p>
+    </footer>
+</body>
+</html>
