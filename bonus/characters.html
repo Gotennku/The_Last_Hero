@@ -1,0 +1,131 @@
+<!--
+---- EPITECH PROJECT, 2024
+---- My_Rpg
+---- File description:
+---- Characters Page for "The Last Hero"
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Last Hero - Characters</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css'>
+    <link rel="stylesheet" href="./digba.css">
+    <style>
+        .character-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .character-item {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #1a1a2e;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .character-item:hover {
+            background-color: #2938c2;
+        }
+
+        .character-item img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .character-item a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            flex-grow: 1;
+        }
+
+        @media (max-width: 768px) {
+            .character-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .character-item img {
+                margin-bottom: 10px;
+            }
+
+            .character-item a {
+                text-align: center;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="home.html"> The Last Hero</a></h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="characters.html">Characters</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Log out</a></li>
+            </ul>
+        </nav>
+        <form class="search">
+            <input type="text" placeholder="Search" class="search__input" />
+            <button type="button" class="search__button">
+                <i class="ri-search-2-line"></i>
+            </button>
+        </form>
+    </header>
+
+    <section id="characters">
+        <div class="presentation">
+            <h2>Characters</h2>
+            <ul class="character-list">
+                <li class="character-item">
+                    <img src="img/hero.webp" alt="Jin">
+                    <a href="hero.html">Jin</a>
+                </li>
+                <li class="character-item">
+                    <img src="img/map.jpg" alt="Epitalia">
+                    <a href="Epitalia.html">Epitalia</a>
+                </li>
+                <li class="character-item">
+                    <img src="img/blacksm.webp" alt="Blacksmith">
+                    <a href="blacksmith.html">Blacksmith</a>
+                </li>
+                <li class="character-item">
+                    <img src="img/merlin.webp" alt="Merlin">
+                    <a href="merlin.html">Merlin</a>
+                </li>
+                <li class="character-item">
+                    <img src="img/maire.webp" alt="Maire">
+                    <a href="maire.html">Zargoth</a>
+                </li>
+                <li class="character-item">
+                    <img src="img/mechant.webp" alt="Knights">
+                    <a href="knights.html">Knights</a>
+                </li>
+                <li class="character-item">
+                    <img src="img/artefacts.webp" alt="Artefacts">
+                    <a href="epeeleg.html">Artefacts</a>
+                </li>
+                <li class="character-item">
+                    <img src="img/dragon.webp" alt="Zargoth">
+                    <a href="zargoth.html">Zargoth</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <footer>
+        <p>© 2024 The Last Hero. All rights reserved.</p>
+    </footer>
+</body>
+</html>

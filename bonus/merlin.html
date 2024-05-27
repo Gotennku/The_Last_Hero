@@ -1,0 +1,80 @@
+<!--
+---- EPITECH PROJECT, 2024
+---- My_Rpg
+---- File description:
+---- Character Page for "The Last Hero"
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Last Hero - Merlin</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css'>
+    <link rel="stylesheet" href="./character.css">
+    <style>
+        .presentation {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            width: 80%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .image-container img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="home.html"> The Last Hero</a></h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="characters.html">Characters</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Log out</a></li>
+            </ul>
+        </nav>
+        <form class="search">
+            <input type="text" placeholder="Search" class="search__input" />
+            <button type="button" class="search__button">
+                <i class="ri-search-2-line"></i>
+            </button>
+        </form>
+    </header>
+
+    <section id="merlin">
+        <div class="presentation">
+            <h2>Merlin: Mage</h2>
+            <p>
+                Le mage Merlin est un maître de la magie ancienne, vivant dans une tour isolée près du Lac Enchanteur. C'est lui qui a créé le Cercle de Téléportation, une merveille magique permettant aux aventuriers de voyager instantanément entre les points stratégiques d'Epitalia.
+            </p>
+            <p>
+                Merlin a consacré sa vie à l'étude des arcanes et à la protection des savoirs interdits. Ses sorts puissants et son savoir encyclopédique font de lui un allié précieux pour ceux qui cherchent à comprendre les mystères de ce monde.
+            </p>
+        </div>
+        <div class="image-container">
+            <img src="img/merlin.webp" alt="Mage Merlin">
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 The Last Hero. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!--
+---- EPITECH PROJECT, 2024
+---- My_Rpg
+---- File description:
+---- Legendary Artifacts Page for "The Last Hero"
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Last Hero - Les Artefacts Légendaires</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css'>
+    <link rel="stylesheet" href="./character.css">
+    <style>
+        .presentation {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            width: 80%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .image-container img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="home.html"> The Last Hero</a></h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="characters.html">Characters</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Log out</a></li>
+            </ul>
+        </nav>
+        <form class="search">
+            <input type="text" placeholder="Search" class="search__input" />
+            <button type="button" class="search__button">
+                <i class="ri-search-2-line"></i>
+            </button>
+        </form>
+    </header>
+
+    <section id="legendary-artifacts">
+        <div class="presentation">
+            <h2>Les Artefacts Légendaires</h2>
+            <p>
+                Dans des temps anciens, une légende raconte l'histoire d'un forgeron exceptionnel qui forgea trois artefacts puissants à partir des écailles du dragon ancien, un monstre redoutable autrefois vaincu par les héros de cette époque. Ces artefacts, imprégnés de la magie et de la force du dragon, sont censés posséder des pouvoirs extraordinaires capables de protéger et de sauver des vies.
+            </p>
+            <p>
+                Cependant, personne n'a jamais vu ces artefacts de ses propres yeux. Ils sont restés cachés à travers les âges, devenant une simple histoire racontée autour du feu de camp. Mais la légende prédit que ces artefacts apparaîtront dans le village de Ferraill uniquement lorsqu'un grave danger rôde à proximité, une menace si grande qu'elle mettrait en péril la sécurité et l'existence même des habitants.
+            </p>
+            <p>
+                Certains disent que le forgeron, en créant ces objets, les a dotés de leur propre conscience, les liant ainsi au destin du village. Les artefacts seraient alors capables de sentir le danger imminent et de se manifester pour aider les villageois à surmonter l'adversité en améliorant les conditions du porteur.
+            </p>
+            <p>
+                Ainsi, chaque génération attend avec une certaine appréhension et une lueur d'espoir le jour où ces artefacts mystérieux apparaîtront, espérant qu'ils apporteront le salut en temps de crise.
+            </p>
+        </div>
+        <div class="image-container">
+            <img src="img/artefacts.webp" alt="Les Artefacts Légendaires">
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 The Last Hero. All rights reserved.</p>
+    </footer>
+</body>
+</html>

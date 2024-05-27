@@ -1,0 +1,80 @@
+<!--
+---- EPITECH PROJECT, 2024
+---- My_Rpg
+---- File description:
+---- Character Page for "The Last Hero"
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Last Hero - Jin</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css'>
+    <link rel="stylesheet" href="./character.css">
+    <style>
+        .presentation {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            width: 80%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .image-container img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="home.html"> The Last Hero</a></h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="characters.html">Characters</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Log out</a></li>
+            </ul>
+        </nav>
+        <form class="search">
+            <input type="text" placeholder="Search" class="search__input" />
+            <button type="button" class="search__button">
+                <i class="ri-search-2-line"></i>
+            </button>
+        </form>
+    </header>
+
+    <section id="jin">
+        <div class="presentation">
+            <h2>Jin: Hero</h2>
+            <p>
+                Jin est un jeune héros au cœur pur, originaire du paisible village de Ferraill, là où se déroule l'action principale. Inspiré par les légendes des anciens héros et motivé par la protection de son foyer, il a quitté son quotidien tranquille pour défendre Epitalia contre les menaces grandissantes.
+            </p>
+            <p>
+                Jin a un lien particulier avec Black Smith, le forgeron, qui lui a forgé une épée spéciale en prévision des défis à venir. Courageux et déterminé, Jin cherche constamment à améliorer ses compétences et à rassembler des alliés pour sa quête. Sa force réside non seulement dans son habileté au combat mais aussi dans sa capacité à inspirer et à unir les peuples d'Epitalia contre les forces du mal.
+            </p>
+        </div>
+        <div class="image-container">
+            <img src="img/hero.webp" alt="Hero Jin">
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 The Last Hero. All rights reserved.</p>
+    </footer>
+</body>
+</html>

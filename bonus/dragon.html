@@ -1,0 +1,80 @@
+<!--
+---- EPITECH PROJECT, 2024
+---- My_Rpg
+---- File description:
+---- Character Page for "The Last Hero"
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Last Hero - Zargoth</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css'>
+    <link rel="stylesheet" href="./character.css">
+    <style>
+        .presentation {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            width: 80%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .image-container img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="home.html"> The Last Hero</a></h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="characters.html">Characters</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Log out</a></li>
+            </ul>
+        </nav>
+        <form class="search">
+            <input type="text" placeholder="Search" class="search__input" />
+            <button type="button" class="search__button">
+                <i class="ri-search-2-line"></i>
+            </button>
+        </form>
+    </header>
+
+    <section id="zargoth">
+        <div class="presentation">
+            <h2>Zargoth: Dragon </h2>
+            <p>
+                Le Dragon, connu sous le nom de Zargoth, est apparu un jour sans avertissement, semant la terreur et la destruction sur son passage. Originaire des ténèbres profondes de la Gorge des Âmes Perdues, Zargoth possède des pouvoirs terrifiants, capable de corrompre et de détruire tout ce qu'il touche.
+            </p>
+            <p>
+                Les légendes racontent que Zargoth a été libéré par une ancienne malédiction brisée, et depuis, il cherche à plonger Epitalia dans le chaos. Seuls les plus courageux osent se dresser contre lui, et même eux savent que la victoire contre Zargoth requerra une force et une sagesse extraordinaires.
+            </p>
+        </div>
+        <div class="image-container">
+            <img src="img/dragon.webp" alt="Dragon Zargoth">
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 The Last Hero. All rights reserved.</p>
+    </footer>
+</body>
+</html>

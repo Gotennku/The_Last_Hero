@@ -1,0 +1,80 @@
+<!--
+---- EPITECH PROJECT, 2024
+---- My_Rpg
+---- File description:
+---- Knights Page for "The Last Hero"
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Last Hero - Knights de Zargoth</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css'>
+    <link rel="stylesheet" href="./character.css">
+    <style>
+        .presentation {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            width: 80%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .image-container img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="home.html"> The Last Hero</a></h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="characters.html">Characters</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Log out</a></li>
+            </ul>
+        </nav>
+        <form class="search">
+            <input type="text" placeholder="Search" class="search__input" />
+            <button type="button" class="search__button">
+                <i class="ri-search-2-line"></i>
+            </button>
+        </form>
+    </header>
+
+    <section id="knights">
+        <div class="presentation">
+            <h2>Knights de Zargoth</h2>
+            <p>
+                Les Knights de Zargoth sont des guerriers redoutables et corrompus, entièrement dévoués au Dragon. Ces chevaliers noirs étaient autrefois des protecteurs d'Epitalia, mais sous l'influence maléfique de Zargoth, ils ont été transformés en ses serviteurs les plus fidèles.
+            </p>
+            <p>
+                Revêtus d'armures sombres et brandissant des armes imprégnées de magie noire, les Knights exécutent les ordres de Zargoth avec une loyauté aveugle. Leur présence est synonyme de destruction et de terreur pour les habitants de Ferraill. Dirigés par le sinistre Capitaine Mortis, les Knights forment la principale force d'attaque de Zargoth, rendant la lutte contre le Dragon d'autant plus difficile pour Jin et ses alliés.
+            </p>
+        </div>
+        <div class="image-container">
+            <img src="img/mechant.webp" alt="Knights de Zargoth">
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 The Last Hero. All rights reserved.</p>
+    </footer>
+</body>
+</html>
